@@ -1,0 +1,64 @@
+    h1 
+    { 
+		text-align: center;
+		background-color: red;
+		font-size: 400%;
+    }
+	
+	nav {
+		text-align: center; /* Pour centrer la balise nav */
+		background: none; /* à la place de none, on peut mettre une couleur de fond*/
+		margin: 20px 0; /* espace vierge à l'extérieur des contours de nav */
+		padding: 10px; /* espace vierge à l'intérieur des contours de nav*/
+	}
+	
+	nav a {
+		text-decoration: none; /* ou mettre par exemple underline */
+		background: #6495ED; /* choix d'une couleur de fond */
+		border-radius: 5px; /* coin arrondi de 5 pixels */
+		color: black; /* couleur du texte */
+  		font-size: 200%; /* taille du texte par rapport aux dimensions standards */
+		border:2px solid; /* cadre de 2 pixels de large */
+		border-color:#DCDCDC #696969 #696969 #DCDCDC; /* 4 bords : 4 couleurs */
+		padding: 3px 80px; /* espace vierge à l'intérieur des contours*/
+	}
+	
+	nav a:hover {   /* permet le changement d'apparence sous le pointeur souris */
+		background-color:#D3D3D3;
+		border-color:#696969 #DCDCDC #DCDCDC #696969;
+	} 
+	
+	
+	section{
+		text-align: center; 
+		background-color: white;
+		margin : 0px 0px; /* espace extérieur vierge en haut et en bas de l'image */
+	}
+	
+	p {
+		text-align: left;
+		color: black;
+		font-size: 200%;
+		margin : 0px 0px; /* espace haut bas et ensuite droite gauche */
+		padding : 0px 0px 50px 0px; /* haut droite bas gauche */
+	}
+	
+	h2
+    {
+		font-size: 200%;
+		font-family: Verdana;
+		font-style: italic;
+		color: green;
+		padding : 0px 0px 80px 0px; /* haut droite bas gauche */
+    }
+	
+	figure {
+		text-align: center; 
+		background-color: none;
+	}
+	
+    h3
+    {
+		background-color: gray;
+		width: 700px;
+    }
